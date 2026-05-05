@@ -107,6 +107,12 @@ h1 {
   margin-bottom: 28px;
 }
 
+.hero-text > p:not(.eyebrow):not(.subtitle) {
+  font-size: 22px;
+  line-height: 1.75;
+  color: #1f2937;
+  max-width: 1200px;
+
 /* CARDS */
 .analysis-card {
   background: white;
@@ -130,57 +136,3 @@ h1 {
   max-width: 1200px;
 }
 
-/* MOBILE */
-@media (max-width: 850px) {
-  .navbar {
-    padding: 18px 6%;
-    flex-direction: column;
-    gap: 14px;
-  }
-
-  .nav-links a {
-    margin-left: 14px;
-    font-size: 14px;
-  }
-
-  .hero {
-    grid-template-columns: 1fr;
-    padding: 60px 6%;
-  }
-
-  h1 {
-    font-size: 42px;
-  }
-
-  .subtitle {
-    font-size: 21px;
-  }
-
-  .content-section {
-    padding: 60px 6%;
-  }
-
-  .content-section h2 {
-    font-size: 34px;
-  }
-
-  .analysis-card {
-    padding: 28px 24px;
-  }
-
-  .analysis-card h3 {
-    font-size: 28px;
-  }
-
-  .analysis-card p {
-    font-size: 19px;
-    line-height: 1.7;
-  }
-
-  .hero-text > p:not(.eyebrow):not(.subtitle) {
-  font-size: 22px;
-  line-height: 1.75;
-  color: #1f2937;
-  max-width: 1200px;
-}
-}
