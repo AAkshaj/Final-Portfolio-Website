@@ -249,3 +249,12 @@ h1 {
   border: 1px solid #ddd;
 }
 
+.single-image {
+  display: flex;
+  justify-content: center;
+}
+
+.single-image img {
+  max-width: 70%;
+}
+
